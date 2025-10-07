@@ -1,0 +1,93 @@
+body {
+    font-family: "Poppins", sans-serif;
+    background: #f9fafc;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background: linear-gradient(90deg, #0078d7, #0096ff);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+    font-size: 2em;
+}
+
+header .buttons button {
+    background: white;
+    color: #0078d7;
+    border: none;
+    margin: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+header .buttons button:hover {
+    background-color: #005fa3;
+    color: white;
+}
+
+#content {
+    padding: 20px;
+}
+
+.project {
+    background: white;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.project-header {
+    margin: 0;
+}
+
+.project-header h2 {
+    margin: 0;
+}
+
+.delete-project {
+    background: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.delete-project:hover { 
+    background: #cc0000;
+}
+
+.todo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #eef6ff;
+    padding: 10px;
+    border-left: 5px solid #0078d7;
+    border-radius: 6px;
+    margin-bottom: 8px;
+}
+
+.delete-todo {
+    background: transparent;
+    border: none;
+    color: #ff4d4d;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.delete-todo:hover {
+    transform: scale(1.2);
+}
